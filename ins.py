@@ -15,14 +15,7 @@ def telecharger(dp):
 #prof= st.text_input('taper le compte instagram')
 #telecharger(prof)
 
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+
 
 
 form=st.form('profile')
